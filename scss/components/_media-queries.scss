@@ -1,0 +1,15 @@
+@media #{$brkDesktop} {
+    .card {
+        flex-direction: row-reverse;
+    }
+    .container {
+        padding-top: 3%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .side-card-b {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

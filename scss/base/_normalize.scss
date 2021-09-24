@@ -1,0 +1,26 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 5rem;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+div a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+div a:hover {
+    color: red;
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+body {
+  background-color: #090b1a;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 5rem;
+  color: white;
+  text-decoration: none;
+}
+
+div a {
+  color: white;
+  text-decoration: none;
+}
+
+div a:hover {
+  color: red;
+}
+
+.card {
+  background-color: #1b1938;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  text-align: center;
+  font-size: 15px;
+}
+.card h1 span {
+  color: #aa5cdb;
+}
+
+.heading-main,
+.stat {
+  color: white;
+  font-weight: 700;
+  font-family: "Inter";
+}
+
+.paragraph-main {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.heading {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-family: "Lexend Deca";
+  padding-top: -12px;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+}
+
+.card img {
+  filter: invert(40%) sepia(95%) saturate(434%) hue-rotate(233deg) brightness(96%) contrast(91%);
+}
+
+@media (min-width: 1440px) {
+  .card {
+    flex-direction: row-reverse;
+  }
+
+  .container {
+    padding-top: 3%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .side-card-b {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}/*# sourceMappingURL=styles.css.map */
